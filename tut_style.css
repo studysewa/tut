@@ -1,0 +1,134 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+	background-color: #00000f;
+}
+header{
+	width: 100%;
+	height: 20vh;
+	/*border: 2px solid red;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: lightgreen;
+}
+.main{
+	width: 16%;
+	height: 250px;
+	background-color: white;
+	margin-left: 8%;
+	overflow:;	
+}
+.main h2{
+	color: blue;
+	text-align: center;
+	padding-top: 50px;
+	text-transform: uppercase;
+}
+.sub{
+	width: 100%;
+	height: 60%;
+	margin-top: 15%;
+	background-color: brown;
+}
+.sub button{
+	width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-top: 35%;
+		margin-left:15%;
+}
+.I{
+	display: flex;
+}
+.II{
+	margin-top: 8%;
+	display: flex;	
+}
+.III{
+	margin-top: 8%;
+	display: flex;
+	margin-left:;
+	padding-bottom: 40px;
+}
+		.main{
+
+			box-shadow: 6px 6px 20px 10px lime;
+			animation: anim 3s infinite alternate ease-in; 
+			transform: rotate3d(120deg);
+		}
+		@keyframes anim{
+			0%{
+				box-shadow: 6px 6px 10px 10px lime;
+			}
+			25%{
+				box-shadow: 6px 6px 10px 10px red;
+			}
+			50%{
+				box-shadow: 6px 6px 20px 10px yellow;
+			}
+			75%{
+				box-shadow: 6px 6px 10px 10px blue;
+			}
+			100%{
+				box-shadow: 6px 6px 10px 10px pink;
+			}
+		}
+
+@media(max-width: 363px){
+	.I{
+	display: flex;
+	flex-direction: column;
+}
+.II{
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;	
+}
+.III{
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;
+	margin-left:;
+	padding-bottom: 40px;
+}
+.main{
+	margin-top: 50px;
+	width: 60%;
+	height: 250px;
+	background-color: white;
+	margin-left: 20%;
+	overflow:;	
+}
+.main h2{
+	color: blue;
+	text-align: center;
+	padding-top: 50px;
+	text-transform: uppercase;
+}
+.sub{
+	width: 100%;
+	height: 60%;
+	margin-top: 15%;
+	background-color: brown;
+}
+.sub button{
+	width:140px;
+		height: 45px;
+		background-color: blue;
+		border-radius: 15px;
+		color:white;
+		font-size: 18px;
+		border:none;
+		margin-top: 35%;
+		margin-left:15%;
+}
+}
